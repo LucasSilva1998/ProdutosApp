@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProdutosApp.API", "ProdutosApp.API\ProdutosApp.API.csproj", "{A3E41227-16D1-49F1-903D-281763A29581}"
 EndProject
@@ -20,6 +20,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		docker-compose.yml = docker-compose.yml
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProdutosApp.Infra.Data", "ProdutosApp.Infra.Data\ProdutosApp.Infra.Data.csproj", "{DCFC11FD-CEB8-42B1-AEE5-7320E1BEA438}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,6 +36,10 @@ Global
 		{7CCAC551-C992-4CC6-8EDC-1DD4D55241EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CCAC551-C992-4CC6-8EDC-1DD4D55241EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CCAC551-C992-4CC6-8EDC-1DD4D55241EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCFC11FD-CEB8-42B1-AEE5-7320E1BEA438}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCFC11FD-CEB8-42B1-AEE5-7320E1BEA438}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCFC11FD-CEB8-42B1-AEE5-7320E1BEA438}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCFC11FD-CEB8-42B1-AEE5-7320E1BEA438}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +47,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{A3E41227-16D1-49F1-903D-281763A29581} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{7CCAC551-C992-4CC6-8EDC-1DD4D55241EE} = {D2726E04-69F0-4D6D-9CA8-71D9A91F8836}
+		{DCFC11FD-CEB8-42B1-AEE5-7320E1BEA438} = {59004076-0FC7-428E-8941-EBFFABE1CE4A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DB52EDE4-8D11-48E7-8C85-07E55437C868}

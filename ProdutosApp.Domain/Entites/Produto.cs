@@ -19,7 +19,7 @@ namespace ProdutosApp.Domain.Entites
         public int? Quantidade { get; set; }
         public DateTime? DataHoraCriacao { get; set; }
         public bool? Ativo {  get; set; }
-        public Guid? CatedoriaId { get; set; }
+        public Guid? CategoriaId { get; set; }
 
         #endregion
 
