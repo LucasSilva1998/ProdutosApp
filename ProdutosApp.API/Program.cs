@@ -1,3 +1,5 @@
+using ProdutosApp.Application.Extensions;
+using ProdutosApp.Domain.Extensions;
 using ProdutosApp.Infra.Data.Extensions;
 using Scalar.AspNetCore;
 
@@ -9,6 +11,8 @@ builder.Services.AddOpenApi();
 
 //Registrando os serviços de injeção de dependência
 builder.Services.AddEntityFramework(builder.Configuration);
+builder.Services.AddDomainServices();
+builder.Services.AddApplicationServices();
 
 //Swagger
 builder.Services.AddEndpointsApiExplorer();
